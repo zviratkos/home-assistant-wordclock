@@ -50,8 +50,9 @@ When adding the integration:
 ## Entities Created
 
 ### Lights
-- WordClock Time
-- WordClock Background
+- WordClock Color Time
+- WordClock Color Background
+-- max power to LED is software limited to 50% (100% on slider = 50% brightness)
 
 ### Switches
 - EW1 – EW12

@@ -21,7 +21,7 @@ class WordClockLight(CoordinatorEntity, LightEntity):
         self.entry = entry
         self.mode = mode
         self._attr_unique_id = f"{entry.entry_id}_{mode}"
-        self._attr_name = f"WordClock {mode.capitalize()}"
+        self._attr_name = f"WordClock Color {mode.capitalize()}"
 
     @property
     def device_info(self):
@@ -50,7 +50,7 @@ class WordClockLight(CoordinatorEntity, LightEntity):
     @property
     def brightness(self):
         intensity = (self.coordinator.data or {}).get("INTENSITY", 0)
-        return int(intensity * 255 / 100)
+        return int(intensity * 255 / 50)
 
     @property
     def is_on(self):
@@ -63,7 +63,7 @@ class WordClockLight(CoordinatorEntity, LightEntity):
         brightness = kwargs.get("brightness", self.brightness)
         rgb = kwargs.get("rgb_color", self.rgb_color)
 
-        intensity = int(brightness * 100 / 255)
+        intensity = int(brightness * 50 / 255)
         r, g, b = rgb
 
         if self.mode == "time":
