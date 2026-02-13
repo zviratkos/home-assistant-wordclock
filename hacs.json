@@ -1,0 +1,12 @@
+{
+  "name": "WordClock 2024",
+  "content_in_root": false,
+  "domains": [
+    "light",
+    "switch",
+    "button"
+  ],
+  "homeassistant": "2026.1.0",
+  "render_readme": true,
+  "iot_class": "local_polling"
+}

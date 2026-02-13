@@ -1,3 +1,8 @@
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/hacs/integration)
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
+
+![WordClock Logo](images/logo-exrates.png)
+
 # WordClock 2024 (Home Assistant Integration)
 
 Custom integration for AWSW WordClock 2024.
@@ -17,7 +22,7 @@ Custom integration for AWSW WordClock 2024.
 ## Installation (HACS)
 
 1. Go to HACS → Integrations → Custom repositories
-2. Add your GitHub repo URL
+2. Add GitHub repo URL https://github.com/zviratkos/home-assistant-wordclock
 3. Select category: Integration
 4. Install “WordClock 2024”
 5. Restart Home Assistant
@@ -50,8 +55,10 @@ When adding the integration:
 ## Entities Created
 
 ### Lights
-- WordClock Time
-- WordClock Background
+- WordClock Color Time
+- WordClock Color Background
+
+ max power to LED is software limited to 50% (100% on slider = 50% brightness)
 
 ### Switches
 - EW1 – EW12
