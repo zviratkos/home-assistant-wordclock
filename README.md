@@ -17,7 +17,7 @@ Custom integration for AWSW WordClock 2024.
 ## Installation (HACS)
 
 1. Go to HACS → Integrations → Custom repositories
-2. Add your GitHub repo URL
+2. Add GitHub repo URL https://github.com/zviratkos/home-assistant-wordclock
 3. Select category: Integration
 4. Install “WordClock 2024”
 5. Restart Home Assistant
