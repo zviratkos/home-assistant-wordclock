@@ -52,7 +52,8 @@ When adding the integration:
 ### Lights
 - WordClock Color Time
 - WordClock Color Background
--- max power to LED is software limited to 50% (100% on slider = 50% brightness)
+
+ max power to LED is software limited to 50% (100% on slider = 50% brightness)
 
 ### Switches
 - EW1 – EW12
