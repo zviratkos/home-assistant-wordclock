@@ -1,11 +1,11 @@
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/hacs/integration)
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
 
-![WordClock Logo](images/logo-exrates.png)
+![WordClock Logo](images/logo-wordclock.png)
 
 # WordClock 2024 (Home Assistant Integration)
 
-Custom integration for AWSW WordClock 2024.
+Custom integration for AWSW WordClock 2024, amazing home printable WordClock (https://www.printables.com/model/768062-wordclock-16x16-2024)
 
 ## Features
 
@@ -81,3 +81,7 @@ Uses native WordClock HTTP API:
 ## License
 
 MIT
+
+## Credits
+
+- AWSW, maintainer of AWSW WordClock (https://www.printables.com/model/768062-wordclock-16x16-2024)
